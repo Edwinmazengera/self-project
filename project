@@ -1,0 +1,28 @@
+import sys
+def register(students, mark):
+    students =input("Please enter the studdent name: ")
+    mark =int(input("Enter mark between 0 and 10"))
+    
+    students= []
+    if exam in students:
+        print("Student already registered")
+    #response when student is not initially registered
+    else:
+        print("Do you want to register another student?")
+        register = input("Register? Y/n").lower()
+        if register == 'Y':
+            print("Please enter the new student name")
+            print("\n")
+        else:
+            print("Thank you.")
+    students.append(register)
+    #enter marks for each student
+    if mark == number:
+        print("Student {} mark {}".format(student, mark))
+    else:
+        print("Thats not a number")
+    register_next= input("Do you want to register next student Y/n?")
+    if register_again.lower() != 'n':
+        register(students, mark)
+    else:
+        sys.exit
